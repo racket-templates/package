@@ -1,7 +1,21 @@
 # racket-package-template [![CI Status][ci-status-badge]][ci-status] [![Documentation][docs-badge]][docs]
 
-My personal template repository for Racket packages.
+Template repository for Racket packages.
 
+# Install
+
+1. [Set your PATH environment variable](https://github.com/racket/racket/wiki/Set-your-PATH-environment-variable) 
+so you can use `raco` and other Racket command line functions.
+2. either look for `from-template` in the DrRacket menu **File|Package Manager**, or run the `raco` command:
+```bash
+raco pkg install from-template
+```
+3. 
+```bash
+raco new package <destination-dir>
+```
+If you omit <destination-dir>, the command will add copy the template to a folder called 'package' in the current folder.
+  
 ## How To Use
 
 1. Search and replace `racket-package-template` with the programmatic name of
