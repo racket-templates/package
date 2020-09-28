@@ -2,7 +2,7 @@
 
 Template repository for Racket packages.
 
-# Install
+# How To Install
 
 1. [Set your PATH environment variable](https://github.com/racket/racket/wiki/Set-your-PATH-environment-variable) 
 so you can use `raco` and other Racket command line functions.
@@ -14,7 +14,7 @@ raco pkg install from-template
 ```bash
 raco new package <destination-dir>
 ```
-If you omit <destination-dir>, the command will add copy the template to a folder called 'package' in the current folder.
+If you omit `<destination-dir>`, the command will add copy the template to a folder called `package` in the current folder.
   
 ## How To Use
 
